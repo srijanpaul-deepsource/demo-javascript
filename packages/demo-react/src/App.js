@@ -16,6 +16,7 @@ function App() {
         >
           Learn React
         </a>
+	<button onClick={(e) => { console.log(e)}} />
       </header>
     </div>
   );
