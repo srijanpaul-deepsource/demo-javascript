@@ -2,22 +2,15 @@ import logo from "./logo.svg";
 import "./App.css";
 import Home from "./components/home";
 
+const onClick1 = (e) => console.log(e)
+
 function App() {
+  const onClick2 = (e) => console.log(e)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Home title={`Welcome to DeepSource Enterprise`} isHero={true}></Home>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-	<button onClick={(e) => { console.log(e)}} />
-      </header>
+    <div>
+      <button onClick={onClick1}/>
+      <button onClick={onClick2}/>
+      <button onClick={(e) => console.log(e)}/>
     </div>
   );
 }
