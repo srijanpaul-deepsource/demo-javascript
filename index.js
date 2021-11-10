@@ -1,4 +1,6 @@
 import { format } from 'path'
 import * as fs from 'fs' 
 
-1
+class S {}
+
+const x = new S()
