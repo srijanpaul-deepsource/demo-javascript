@@ -88,4 +88,11 @@ function isMatched(str){
 }
 
 
-123;
+class Stuff {
+    constructor() {
+        this.a = 1,
+        this.b = 2,
+        this.c = 3,
+        this.d = 4
+    }
+}
