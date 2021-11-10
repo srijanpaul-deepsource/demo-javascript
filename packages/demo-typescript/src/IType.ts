@@ -8,5 +8,5 @@ export function foo() {
       // @ts-ignore: Unreachable code error
       console.log('hello');
     }
-    this.prop;
+    
   }
