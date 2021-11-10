@@ -96,3 +96,5 @@ class Stuff {
         this.d = 4
     }
 }
+
+const x = new Stuff()
