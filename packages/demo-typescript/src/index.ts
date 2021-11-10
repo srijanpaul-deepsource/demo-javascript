@@ -1,7 +1,15 @@
 class SampleClass {
     files = {}
+    a: number
+    b: number
+
     public static get myField1() {
       return 1;
+    }
+
+    public constructor() {
+      this.a = 1,
+      this.b = 2
     }
   
     private get ['myField2']() {
