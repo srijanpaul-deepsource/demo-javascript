@@ -5,6 +5,7 @@ class C {
   public constructor() {
     this.a = 1,
     this.b = 2,
+
     this.x = 'xx'
   }
 }
