@@ -1,8 +1,10 @@
 class C {
   a: number
   b: number
-  constructor() {
+  x: string
+  public constructor() {
     this.a = 1,
-    this.b = 2
+    this.b = 2,
+    this.x = 'xx'
   }
 }
