@@ -4,3 +4,4 @@ import * as fs from 'fs'
 class S {}
 
 new S()
+1
