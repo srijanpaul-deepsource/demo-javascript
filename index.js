@@ -3,10 +3,7 @@ import * as fs from 'fs'
 
 class Stuff {
     constructor() {
-        this.a = 1,
-        this.b = 2,
-        this.c = 3,
-        this.d = 4
+        
     }
 }
 

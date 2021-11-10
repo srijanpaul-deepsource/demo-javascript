@@ -8,8 +8,7 @@ class SampleClass {
     }
 
     public constructor() {
-      this.a = 1,
-      this.b = 2
+      
     }
   
     private get ['myField2']() {
