@@ -5,3 +5,8 @@ class S {}
 
 new S()
 1
+
+const arr = []
+if (arr.length >= 0) {
+    return 1;
+}
