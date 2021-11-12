@@ -7,7 +7,16 @@ new S()
 
 const arr = []
 if (arr.length >= 0) {
-    return 1;
+    // ??
+}
+
+const set = new Set()
+if (set.size >= 0) {
+    // >
+}
+
+if (arr.length < 0) {
+
 }
 
 
