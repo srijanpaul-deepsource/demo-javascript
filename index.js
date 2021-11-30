@@ -21,7 +21,7 @@ if (arr.length < 0) {
 
 
 const fun = async () => {
-    return 1
+    return await Promise.resolve(new Promise(() => 1)) 
 }
 
 fun()
