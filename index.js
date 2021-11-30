@@ -20,5 +20,8 @@ if (arr.length < 0) {
 }
 
 
-const foo = 123
-123
+const fun = async () => {
+    return 1
+}
+
+fun()
