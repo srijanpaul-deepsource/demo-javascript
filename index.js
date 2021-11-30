@@ -25,3 +25,5 @@ const fun = async () => {
 }
 
 fun()
+
+const x = '1' + 2
