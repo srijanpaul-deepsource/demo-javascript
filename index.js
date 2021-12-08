@@ -24,6 +24,6 @@ y[1] = 3;
 y[2] = 3
 y[2] = 2
 
-if (y.length >= 0) {
+if (y.length < 0) {
     //stuff
 }
