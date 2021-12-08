@@ -19,7 +19,7 @@ x = 3;
 
 let y = []
 y[1] = 2;
-y[2] = 3;
+y[1] = 3;
 if (y.length >= 0) {
     //stuff
 }
