@@ -5,25 +5,9 @@ class S {}
 
 new S()
 
-const arr = []
-if (arr.length > 0) {
-    // ??
+function f() {
+    "use strict";
+    return 1
 }
 
-const set = new Set()
-if (set.size > 0) {
-    // > . <
-}
-
-if (arr.length < 0) {
-
-}
-
-
-const fun = async () => {
-    return await Promise.resolve(new Promise(() => 1)) 
-}
-
-fun()
-
-const x = '1' + 2
+f()
