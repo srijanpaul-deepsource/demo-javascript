@@ -12,6 +12,7 @@ function f() {
 
 f()
 
+
 let x = 1;
 x = 2;
 x = 3;
@@ -20,6 +21,7 @@ x = 3;
 let y = []
 y[1] = 2;
 y[1] = 3;
+console.log("hey")
 
 y[2] = 3
 y[2] = 2
