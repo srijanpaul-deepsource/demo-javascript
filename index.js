@@ -29,3 +29,11 @@ y[2] = 2
 if (y.length < 0) {
     //stuff
 }
+
+class Foo {
+    bar() { return 123 }
+    foo = () => this.bar()
+}
+
+const f = new Foo()
+f.foo()
