@@ -9,3 +9,10 @@ class C {
     this.x = 'xx'
   }
 }
+
+export function foo() {
+  const arr = [1, 2, 3]
+  for (const x in arr) {
+    console.log(x)
+  }
+}
