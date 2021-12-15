@@ -37,3 +37,5 @@ class Foo {
 
 const f = new Foo()
 f.foo()
+
+const foo = "bar"
