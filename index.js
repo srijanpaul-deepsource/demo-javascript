@@ -38,4 +38,5 @@ class Foo {
 const f = new Foo()
 f.foo()
 
-const foo = "bar"
+const foo = "foo"
+const bar = "bar"
