@@ -40,3 +40,4 @@ f.foo()
 
 const foo = "foo"
 const bar = "bar"
+const baz = 'baz'
