@@ -41,3 +41,4 @@ f.foo()
 const foo = "foo"
 const baz = 'baz'
 var f = () => 'foo'
+var g = () => f
