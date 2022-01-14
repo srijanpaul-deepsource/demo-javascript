@@ -44,3 +44,4 @@ var f = () => 'foo'
 var g = () => f
 var h = () => g
 var i = () => h 
+var j = () => i
