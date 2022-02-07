@@ -48,3 +48,11 @@ var j = () => i
 var k = () => j
 var l = () => k
 var m = () => l
+var n = () => m
+
+console.log("HELLO!");
+(() => {
+    "use strict";
+    return 1;
+});
+
