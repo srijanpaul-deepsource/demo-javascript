@@ -59,7 +59,7 @@ console.log("HELLO!");
 let x = 100;
 let y = 20;
 
-let y = do {
+let y = (x) => {
     if (x) {
         return 1;
     }
