@@ -64,3 +64,5 @@ let y = (x) => {
         return 1;
     }
 }
+
+let z = y
