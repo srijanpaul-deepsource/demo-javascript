@@ -68,3 +68,6 @@ let y = (x) => {
 let z = y
 return foo
 let x = () => 1
+let z = () => 2
+
+"use foo";
