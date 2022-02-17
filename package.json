@@ -24,4 +24,5 @@
 	"dependencies": {
 		"arrayfire-js": "0.0.1"
 	}
+
 }
