@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/deepsourcelabs/demo-js#readme",
 	"dependencies": {
-		"arrayfire-js": "0.0.1",
-    "foo": "0.1.0"
+		"arrayfire-js": "0.0.1"
 	}
 }
