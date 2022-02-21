@@ -3,5 +3,5 @@ function f() {
 }
 
 function g() {
-  retrn return
+  return =04-12kl21
 }
