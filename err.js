@@ -3,5 +3,3 @@ function f() {
 }
 
 function g() {
-  return =04-12kl21
-}
