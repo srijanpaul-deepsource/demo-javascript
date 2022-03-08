@@ -1,10 +1,13 @@
 {
   "extends": [
-    "airbnb"
+    "airbnb",
+    "standard-with-typescript"
   ],
   "plugins": [
     "import",
-    "prettier"
+    "prettier",
+    "node",
+    "security"
   ],
   "env": {
     "node": true,
