@@ -5,3 +5,4 @@ const syntaxError = () => {
 
 const foo = 1;
 const bar = 2;
+const xx = 2;
