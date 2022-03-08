@@ -4,4 +4,5 @@ const syntaxError = () => {
 
 let x = x;
 10;
+let y = 100;
 
