@@ -6,4 +6,7 @@ const syntaxError = () => {
 const foo = 1;
 const bar = 2;
 const xx = 2;
-const yy = 2;
+var xx = 1;
+xx = 2;
+xx = 3;
+
