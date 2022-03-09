@@ -1,6 +1,3 @@
-import {x} from 'x'
-import {y} from 'x'
-
 let x = 1
 let b = 2
 
