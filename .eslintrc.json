@@ -1,9 +1,9 @@
 {
   "extends": [
     // "airbnb",
-    // "standard-with-typescript",
+    "standard-with-typescript",
     // "eslint:all",
-    "standard"
+    // "standard"
   ],
   "plugins": [
     "import",
