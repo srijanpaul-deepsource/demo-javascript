@@ -3,7 +3,7 @@
     // "airbnb",
     // "standard-with-typescript",
     // "eslint:all",
-    // "standard"
+    "standard"
   ],
   "plugins": [
     "import",
