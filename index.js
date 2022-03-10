@@ -1,5 +1,5 @@
 import {x} from 'y'
-import {x} from 'y'
+import {y} from 'y'
 
 let x = 1
 let b = 2
