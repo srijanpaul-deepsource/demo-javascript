@@ -1,6 +1,6 @@
 {
   "extends": [
-    // "airbnb",
+    "airbnb",
     "standard-with-typescript"
     // "eslint:all",
     // "standard"
