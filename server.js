@@ -1,6 +1,3 @@
 module.exports = { foo: 1 }
-console.log("hellooo")
-
+console.log("helddooo")
 module.exports = { bar: 2 }
-
-console.log("FOO")
