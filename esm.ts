@@ -1,6 +1,6 @@
 let x = 1
 
-if (x != null) {
+if (x !== null) {
   x = 2
 }
 
