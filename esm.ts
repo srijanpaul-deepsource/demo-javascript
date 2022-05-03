@@ -1,7 +1,7 @@
-console.log(`fooo ${bar}`)
+let x = 1
 
-let y = "x";
-let f = () => 1 + y
-let g = () => y + {foo: 1}.foo;
-let x
-let xx
+if (x != null) {
+  x = 2
+}
+
+export default x
