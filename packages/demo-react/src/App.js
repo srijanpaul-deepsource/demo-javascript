@@ -15,4 +15,11 @@ function App() {
   );
 }
 
+class YourComponent extends React.Component {
+  render() {
+    return <>hello</>
+  }
+}
+
+
 export default App;
