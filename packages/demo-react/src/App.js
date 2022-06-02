@@ -1,6 +1,5 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Home from "./components/home";
 
 const onClick1 = (e) => console.log(e)
 
