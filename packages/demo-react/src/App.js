@@ -20,5 +20,4 @@ class YourComponent extends React.Component {
   }
 }
 
-
 export default App;
