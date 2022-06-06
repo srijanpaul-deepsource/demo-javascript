@@ -20,4 +20,6 @@ class YourComponent extends React.Component {
   }
 }
 
+const f = new Function('a', 'b', 'return a + b')
+
 export default App;
