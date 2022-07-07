@@ -16,7 +16,7 @@ function App() {
 
 class YourComponent extends React.Component {
   render() {
-    let x = <Foo a a />
+    let x = <Foo a  />
     let iframe = <iframe src="" frameborder="0"></iframe>
 
     return <>hello</>
