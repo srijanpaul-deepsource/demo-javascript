@@ -4,5 +4,8 @@ version = 1
 name = "javascript"
 enabled = true
 
-[analyzers.meta]
-  plugins = ["react"]
+  [analyzers.meta]
+  environment = ["vitest"]
+  plugins = [
+    "react"
+  ]
