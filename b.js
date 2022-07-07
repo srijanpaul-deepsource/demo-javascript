@@ -1,3 +1,3 @@
 import a from './a'
-
-export default 1
+let x = 1
+export default 00
