@@ -1,5 +1,11 @@
-let x: any = 1
+export const p = new Promise((resolve, _reject) => {
+  resolve(100);
+})
 
-x = x == null == null == undefined == false 
+let x = 1
+x =+ 1
+x =- 2
+x =! 3
 
 export default x
+
