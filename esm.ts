@@ -4,6 +4,7 @@ export const p = new Promise((resolve, _reject) => {
 
 let x = 1
 x =+ 1
+x =- 2
 
 export default x
 
