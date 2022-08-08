@@ -1,1 +1,14 @@
-debugger;
+// JS-0233
+const symbol = new Symbol()
+const mysymbols = new Symbol(new Symbol([new Symbol()], (1, 2, 3, new Symbol())));
+
+// JS-0084
+const o = { x: 1 }
+const p = { y: 2 }
+
+o.__proto__ = p
+console.log(o.__proto__, p.__proto__)
+console.log(Object.getPrototypeOf(o.__proto__))
+console.log(Object.setPrototypeOf(p.__proto__, p))
+o["__proto__"] = p["__proto__"]
+o.__proto__ = p.__proto__
