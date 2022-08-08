@@ -7,10 +7,10 @@ const p = { y: 2 }
 
 // Commnet comment comment
 // JS-0084
-o.__proto__ = p
-console.log(o.__proto__, p.__proto__)
-console.log(Object.getPrototypeOf(o.__proto__))
-console.log(Object.setPrototypeOf(p.__proto__, p))
-o["__proto__"] = p["__proto__"]
-o["__proto__"] = p["__proto__"].__proto__
-o.__proto__ = p.__proto__
+Object.setPrototypeOf(o, p)
+console.log(Object.getPrototypeOf(o), Object.getPrototypeOf(p))
+console.log(Object.getPrototypeOf(Object.getPrototypeOf(o)))
+console.log(Object.setPrototypeOf(Object.getPrototypeOf(p), p))
+Object.setPrototypeOf(o, Object.getPrototypeOf(p))
+Object.setPrototypeOf(o, Object.getPrototypeOf(Object.getPrototypeOf(p)))
+Object.setPrototypeOf(o, Object.getPrototypeOf(p))
