@@ -5,7 +5,11 @@ name = "javascript"
 enabled = true
 
   [analyzers.meta]
-  environment = []
   plugins = [
-    "react"
+    "react",
+    "vue"
   ]
+
+[[transformers]]
+name = "prettier"
+enabled = true
