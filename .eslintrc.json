@@ -6,13 +6,7 @@
     "standard",
     "barfoo"
   ],
-  "plugins": [
-    "import",
-    "prettier",
-    "node",
-    "security",
-    "fubar"
-  ],
+  "plugins": ["import", "prettier", "node", "security", "fubar"],
   "env": {
     "node": true,
     "es6": true,
@@ -22,14 +16,8 @@
     "accessor-pairs": "off",
     "123": "false",
     ":)": 123,
-    "for-direction": [
-      "off",
-      "ahsdbasd"
-    ],
-    "flow/foo": [
-      "off",
-      "adad"
-    ],
+    "for-direction": ["off", "ahsdbasd"],
+    "flow/foo": ["off", "adad"],
     "flow/xoo": [
       "off",
       {

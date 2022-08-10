@@ -1,7 +1,7 @@
-const nodeVM = require('vm');
+const nodeVM = require("vm");
 const f = (req, res) => nodeVM.run(req.body.code);
 
-const b = Buffer.allocUnsafe(10)
-b.readUInt8(0, true)
+const b = Buffer.allocUnsafe(10);
+b.readUInt8(0, true);
 
-export default f
+export default f;
