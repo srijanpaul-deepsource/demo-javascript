@@ -6,6 +6,7 @@ class Hello {
     this.isTitleAvailable = this.title ? true : false;
     this.isHero = props.isHero ? props.isHero : false;
   }
+
   render() {
     return (
       <h1 class="no-unknown-property" font-size="24" onClick={() => console.log('Should not use bind in JSX props')}>
