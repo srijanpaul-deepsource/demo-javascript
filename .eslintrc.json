@@ -21,7 +21,10 @@
   "rules": {
     "accessor-pairs": "off",
     "123": "false",
-    ":)": 123
+    ":)": 123,
+    "for-direction": ["off", "ahsdbasd"],
+    "flow/foo": ["off", "adad"],
+    "flow/fdoo": "warn"
   },
   "globals": {
     "foobar": "off",
