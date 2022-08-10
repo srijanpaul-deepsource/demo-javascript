@@ -1,11 +1,5 @@
 import { Component } from "react";
-
-type Props = {
-  title: string,
-  isHero: boolean
-}
-
-class Hello extends Component<Props> {
+class Hello {
   constructor(props) {
     super(props);
     this.title = props.title;
@@ -21,7 +15,5 @@ class Hello extends Component<Props> {
     );
   }
 }
-
-
 
 export default Hello;
