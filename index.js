@@ -14,3 +14,5 @@ console.log(Object.setPrototypeOf(p.__proto__, p))
 o["__proto__"] = p["__proto__"]
 o["__proto__"] = p["__proto__"].__proto__
 o.__proto__ = p.__proto__
+
+export default 123
