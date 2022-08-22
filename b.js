@@ -39,7 +39,13 @@ export class BadClass {
 export const badObject = {
   async f() {
     return 1
-  }
+  },
+
+  g: async function() {
+    return 2
+  },
+
+  h: async () => 3
 }
 
 export default 2
