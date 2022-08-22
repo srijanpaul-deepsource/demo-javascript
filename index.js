@@ -28,6 +28,7 @@ new F()
 
 const { exec } = require('cp')
 
+const bar = 'bar'
 cp.exec('foo' + bar)
 const xs = "..." + "something"
 cp.cxecFile(xs)
