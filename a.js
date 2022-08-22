@@ -1,10 +1,9 @@
 import b from './b'
 
-let foo = {}
-let bar = foo?.foobar
+import cp from 'child_process'
 
-
-import cp from "child_process"
+const foo = {}
+const bar = foo?.foobar
 cp.exec('foo' + bar)
-const xs = "..." + "something"
+const xs = '...' + 'something'
 cp.cxecFile(xs)
