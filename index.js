@@ -1,4 +1,5 @@
 import cp from "child_process"
+import { execFile } from 'child_process'
 // JS-0233
 const symbol = new Symbol()
 const mysymbols = new Symbol(new Symbol([new Symbol()], (1, 2, 3, new Symbol())));
@@ -25,6 +26,10 @@ class F {
 
 new F()
 
+const { exec } = require('cp')
+
 cp.exec('foo' + bar)
 const xs = "..." + "something"
 cp.cxecFile(xs)
+exec('foo' + bar)
+execFile('foo' + bar)
