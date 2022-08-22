@@ -30,5 +30,16 @@ export async function f2(xs) {
   return ys
 }
 
+export class BadClass {
+  async foo() {
+    return 1
+  }
+}
+
+export const badObject = {
+  async f() {
+    return 1
+  }
+}
 
 export default 2
