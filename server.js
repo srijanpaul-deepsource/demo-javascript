@@ -21,3 +21,17 @@ cp.execFile(proc) // unsafe
 
 exec("fubar") // safe
 exec("./" + proc)  // unsafe
+
+export async function f() {
+  return async function g() {
+    return 1
+  }
+}
+
+export async function f2(xs) {
+  const ys = []
+  for await (const x of xs) {
+    ys.push(x)
+  }
+  return ys
+}
