@@ -1,9 +1,8 @@
 import b from './b'
 
-let foo = {}
-let bar = foo?.foobar
-
 import cp from 'child_process'
-const xs = "..." + "something"
-cp.cxecFile(xs)
 
+const foo = {}
+const bar = foo?.foobar
+const xs = '...' + 'something'
+cp.cxecFile(xs)
