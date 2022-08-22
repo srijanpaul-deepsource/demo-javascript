@@ -16,4 +16,12 @@ console.log(o.__proto__, p.__proto__)
 console.log(Object.getPrototypeOf(o.__proto__))
 console.log(Object.setPrototypeOf(p.__proto__, p))
 
+class F {
+  constructor() {
+    super(1)
+  }
+}
+
+new F()
+
 export default 123
