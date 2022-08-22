@@ -1,3 +1,4 @@
+import cp from "child_process"
 // JS-0233
 const symbol = new Symbol()
 const mysymbols = new Symbol(new Symbol([new Symbol()], (1, 2, 3, new Symbol())));
@@ -23,3 +24,7 @@ class F {
 }
 
 new F()
+
+cp.exec('foo' + bar)
+const xs = "..." + "something"
+cp.cxecFile(xs)
