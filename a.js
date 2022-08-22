@@ -16,9 +16,9 @@ cp.execFile(proc) // unsafe
 exec("fubar") // safe
 exec("./" + proc)  // unsafe
 
-export async function f() {
+export async function f(x) {
   return async function g() {
-    return 1
+    return x
   }
 }
 
