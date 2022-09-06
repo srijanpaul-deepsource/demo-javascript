@@ -24,7 +24,6 @@ console.log(Object.setPrototypeOf(p.__proto__, p))
 
 class F {
   constructor() {
-    super(1)
   }
 }
 
