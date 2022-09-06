@@ -1,42 +1,42 @@
-import cp from "child_process"
-import { execFile } from 'child_process'
-import { hsts } from 'helmet'
-import exp from 'express'
+// import cp from "child_process"
+// import { execFile } from 'child_process'
+// import { hsts } from 'helmet'
+// import exp from 'express'
 
-// JS-0233
-const symbol = new Symbol()
-const mysymbols = new Symbol(new Symbol([new Symbol()], (1, 2, 3, new Symbol())));
+// // JS-0233
+// const symbol = new Symbol()
+// const mysymbols = new Symbol(new Symbol([new Symbol()], (1, 2, 3, new Symbol())));
 
-const o = { x: 1 }
-const p = { y: 2 }
+// const o = { x: 1 }
+// const p = { y: 2 }
 
-// Commnet comment comment
-// JS-0084
-o.__proto__ = p
-o["__proto__"] = p["__proto__"]
-o["__proto__"] = p["__proto__"].__proto__
-o.__proto__ = p.__proto__
+// // Commnet comment comment
+// // JS-0084
+// o.__proto__ = p
+// o["__proto__"] = p["__proto__"]
+// o["__proto__"] = p["__proto__"].__proto__
+// o.__proto__ = p.__proto__
 
-console.log(o.__proto__, p.__proto__)
-console.log(Object.getPrototypeOf(o.__proto__))
-console.log(Object.setPrototypeOf(p.__proto__, p))
+// console.log(o.__proto__, p.__proto__)
+// console.log(Object.getPrototypeOf(o.__proto__))
+// console.log(Object.setPrototypeOf(p.__proto__, p))
 
-class F {
-  constructor() {
-    super(1)
-  }
-}
+// class F {
+//   constructor() {
+//     super(1)
+//   }
+// }
 
-new F()
+// new F()
 
-const { exec } = require('cp')
+// const { exec } = require('cp')
 
-const bar = 'bar'
-cp.exec('foo' + bar)
-const xs = "..." + "something"
-cp.cxecFile(xs)
-exec('foo' + bar)
-execFile('foo' + bar)
+// const bar = 'bar'
+// cp.exec('foo' + bar)
+// const xs = "..." + "something"
+// cp.cxecFile(xs)
+// exec('foo' + bar)
+// execFile('foo' + bar)
 
 import helmet, { hsts } from 'helmet'
 import exp, { static as stat } from 'express'
