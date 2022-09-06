@@ -34,3 +34,12 @@ const xs = "..." + "something"
 cp.cxecFile(xs)
 exec('foo' + bar)
 execFile('foo' + bar)
+
+const helmet = require('helmet')
+helmet({
+  contentSecurityPolicy: {
+    directives: {
+      frameAncestors: 'none'
+    }
+  }
+})
