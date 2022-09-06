@@ -52,7 +52,7 @@ helmet.contentSecurityPolicy({
   directives: {
     frameAncestors: 'none'
   }
-})
+});
 
 const xml = require('libxmljs');
 xml.parseXmlString('foo', {
