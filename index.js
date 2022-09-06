@@ -44,19 +44,19 @@ helmet({
   }
 })
 
-helmet({ contentSecurityPolicy: false })
+helmet({ contentSecurityPolicy: false });
 helmet.contentSecurityPolicy({
   directives: {
     frameAncestors: 'none'
   }
-})
+});
 
-const xml = require('libxmljs')
+const xml = require('libxmljs');
 xml.parseXmlString('foo', {
   noent: true
-})
+});
 
 xml.parseXmlString('foo', {
   noent: false
-})
+});
 
