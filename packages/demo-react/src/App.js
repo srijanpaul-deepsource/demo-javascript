@@ -7,9 +7,9 @@ function App() {
   const onClick2 = (e) => console.log(e)
   return (
     <div>
-      <button onClick={onClick1}/>
-      <button onClick={onClick2}/>
-      <button onClick={(e) => console.log(e)}/>
+      <button onClick={onClick1} />
+      <button onClick={onClick2} />
+      <button onClick={(e) => console.log(e)} />
     </div>
   );
 }
@@ -24,8 +24,11 @@ class YourComponent extends React.Component {
 }
 
 class Foo extends Component {
-  getSnapshotBeforeUpdate(prevProps, nextProps){}
+  getSnapshotBeforeUpdate(prevProps, nextProps) { }
   render() {
+    const x = <div className="absolute bottom-0" w="full">
+      <Footer isDarkMode={darkMode.value} toggleDarkMode={darkMode.toggle} />
+    </div>
     return <div> single quote: '</div>
   }
 }
