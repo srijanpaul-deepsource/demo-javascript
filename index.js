@@ -50,3 +50,13 @@ helmet.contentSecurityPolicy({
     frameAncestors: 'none'
   }
 })
+
+const xml = require('libxmljs')
+xml.parseXmlString('foo', {
+  noent: true
+})
+
+xml.parseXmlString('foo', {
+  noent: false
+})
+
