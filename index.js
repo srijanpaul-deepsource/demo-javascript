@@ -43,3 +43,10 @@ helmet({
     }
   }
 })
+
+helmet({ contentSecurityPolicy: false })
+helmet.contentSecurityPolicy({
+  directives: {
+    frameAncestors: 'none'
+  }
+})
