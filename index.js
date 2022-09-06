@@ -1,5 +1,8 @@
 import cp from "child_process"
 import { execFile } from 'child_process'
+import { hsts } from 'helmet'
+import exp from 'express'
+
 // JS-0233
 const symbol = new Symbol()
 const mysymbols = new Symbol(new Symbol([new Symbol()], (1, 2, 3, new Symbol())));
@@ -59,4 +62,7 @@ xml.parseXmlString('foo', {
 xml.parseXmlString('foo', {
   noent: false
 });
+
+const app = exp()
+app.use(hsts({ includeSubdomains: false }))
 
