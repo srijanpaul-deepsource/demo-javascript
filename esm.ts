@@ -14,6 +14,6 @@ x =! 3
 
 export class C {
   private async f(x: boolean): Promise<boolean> {
-    return !!Boolean(x)
+    return !!!x
   }
 }
