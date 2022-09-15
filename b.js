@@ -17,7 +17,7 @@ exec("./" + proc)  // unsafe
 export async function f(x) {
   return async function g() {
     return async function h() {
-      return x
+      return !!!!!x
     }
   }
 }
