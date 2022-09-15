@@ -12,3 +12,8 @@ x =! 3
 
   export default x
 
+export class C {
+  private async f(x: boolean): Promise<boolean> {
+    return !!Boolean(x)
+  }
+}
