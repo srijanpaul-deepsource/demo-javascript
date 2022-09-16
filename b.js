@@ -48,4 +48,8 @@ export const badObject = {
   h: async () => 3
 }
 
+if (!!(1 + 2)) {
+  // empty
+}
+
 export default 2
