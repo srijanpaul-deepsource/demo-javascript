@@ -1,4 +1,30 @@
 import a from './a'
+import { unserialize as uns } from 'node-serialize'
+import c from 'csurf'
+import execa from "execa";
+import nodemailer from 'nodemailer'
+
+const transporter = nodemailer.createTransport({ secure: false })
+
+uns(xyz)
+c({ cookie: { secure: false } })
+
+
+const _ = (req, res) => {
+  const x = "ls " + req.body.args;
+  execa.command(x);
+}
+
+const express = require('express');
+const helmet = require('helmet');
+
+const app = express();
+
+app.use(
+  helmet.referrerPolicy({
+    policy: ["no-referrer"]
+  })
+);
 
 
 const cp = require("child_process")
@@ -41,7 +67,7 @@ export const badObject = {
     return 1
   },
 
-  g: async function() {
+  g: async function () {
     return 2
   },
 
