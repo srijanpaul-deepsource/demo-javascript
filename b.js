@@ -1,7 +1,7 @@
 import a from './a'
 import { unserialize as uns } from 'node-serialize'
 import c from 'csurf'
-import execa from "execa";
+import execa from 'execa'
 import nodemailer from 'nodemailer'
 
 const transporter = nodemailer.createTransport({ secure: false })
@@ -9,46 +9,44 @@ const transporter = nodemailer.createTransport({ secure: false })
 uns(xyz)
 c({ cookie: { secure: false } })
 
-
 const _ = (req, res) => {
-  const x = "ls " + req.body.args;
-  execa.command(x);
+  const x = 'ls ' + req.body.args
+  execa.command(x)
 }
 
-const express = require('express');
-const helmet = require('helmet');
+const express = require('express')
+const helmet = require('helmet')
 
-const app = express();
+const app = express()
 
 app.use(
   helmet.referrerPolicy({
-    policy: ["no-referrer"]
+    policy: ['no-referrer']
   })
-);
+)
 
+const cp = require('child_process')
+const { exec } = require('child_process')
 
-const cp = require("child_process")
-const { exec } = require("child_process")
-
-const proc = "foobar"
+const proc = 'foobar'
 cp.exec(proc) // unsafe
 
-cp.exec("ls") // safe
+cp.exec('ls') // safe
 
 cp.execFile(proc) // unsafe
 
-exec("fubar") // safe
-exec("./" + proc)  // unsafe
+exec('fubar') // safe
+exec('./' + proc) // unsafe
 
-export async function f(x) {
-  return async function g() {
-    return async function h() {
-      return !!!!!x
+export async function f (x) {
+  return async function g () {
+    return async function h () {
+      return !x
     }
   }
 }
 
-export async function f2(xs) {
+export async function f2 (xs) {
   const ys = []
   for await (const x of xs) {
     ys.push(x)
@@ -57,13 +55,13 @@ export async function f2(xs) {
 }
 
 export class BadClass {
-  async foo() {
+  async foo () {
     return 1
   }
 }
 
 export const badObject = {
-  async f() {
+  async f () {
     return 1
   },
 
@@ -74,7 +72,7 @@ export const badObject = {
   h: async () => 3
 }
 
-if (!!(1 + 2)) {
+if (1 + 2) {
   // empty
 }
 
