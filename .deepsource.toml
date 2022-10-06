@@ -5,11 +5,21 @@ name = "javascript"
 enabled = true
 
   [analyzers.meta]
-  plugins = [
-    "react",
-    "vue"
+  environment = ['nodejs']
+  plugins = ['react', 'vue']
+  dialect = 'flow'
+  dependency_file_paths = [
+    'packages/demo-react/',
+    'packages/demo-vue/',
+    'packages/demo-next/',
+    'packages/demo-nuxt/',
+    'packages/demo-typescript/'
   ]
 
 [[transformers]]
-name = "standardjs"
+    name = "prettier"
+    enabled = true
+
+[[analyzers]]
+name = "secrets"
 enabled = true
