@@ -1,5 +1,5 @@
 import Vue from 'vue'
 
 Vue.component('x', {
-  head: 123 
+  head: 123
 })
