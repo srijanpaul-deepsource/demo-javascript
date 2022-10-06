@@ -1,10 +1,10 @@
-const vm = require('vm')
-module.exports = { foo: 1 }
-console.log("helddooo")
+const vm = require("vm");
+module.exports = { foo: 1 };
+console.log("helddooo");
 
-module.exports = { bar: 2 }
+module.exports = { bar: 2 };
 
-const app = require('express')()
-app.get('/foo', (req, res) => {
+const app = require("express")();
+app.get("/foo", (req, res) => {
   vm.run(req.params.foo);
 });

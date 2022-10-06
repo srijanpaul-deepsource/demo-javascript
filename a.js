@@ -1,6 +1,4 @@
-import b from './b'
+import b from "./b";
 
-let foo = {}
-let bar = foo?.foobar
-
-
+let foo = {};
+let bar = foo?.foobar;
