@@ -1,7 +1,5 @@
-const nodeVM = require('vm');
-const f = (req, res) => nodeVM.run(req.body.code);
+import Vue from 'vue'
 
-const b = Buffer.allocUnsafe(10)
-b.readUInt8(0, true)
-
-export default f
+Vue.component('x', {
+  head: 123 
+})
