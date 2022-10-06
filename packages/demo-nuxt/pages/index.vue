@@ -3,7 +3,6 @@
 </template>
 
 <script>
-let x = y;
 export default {
   /** require-head-as-head */
   head: {
