@@ -23,8 +23,7 @@ export default {
     }
     
     /** no-this-in-fetch-data */
-    if (this.$route.path === 'name') {
-    }
+    this.x = 10
     
     /** no-timing-in-fetch-data */
     let name = 'joe'
