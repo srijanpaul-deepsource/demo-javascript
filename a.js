@@ -4,3 +4,4 @@ let foo = {}
 let bar = foo?.foobar
 
 
+import foo from './foo/bar'
