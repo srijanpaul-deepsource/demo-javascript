@@ -1,4 +1,4 @@
-import f from './foo'
+import f from "./foo";
 
 export const p = new Promise((resolve, _reject) => {
   resolve(100);
