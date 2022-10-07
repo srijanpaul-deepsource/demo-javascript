@@ -12,7 +12,6 @@ x = -2;
 x = !3;
 x = !3;
 
-export const y = x;
 export class C {
   private async f(x: boolean): Promise<boolean> {
     return !!!x;
