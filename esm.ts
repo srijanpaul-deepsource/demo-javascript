@@ -11,9 +11,3 @@ x = +1;
 x = -2;
 x = !3;
 x = !3;
-
-export class C {
-  private async f(x: boolean): Promise<boolean> {
-    return !!!x;
-  }
-}
