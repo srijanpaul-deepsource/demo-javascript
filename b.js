@@ -79,3 +79,5 @@ if (!!(1 + 2)) {
 }
 
 export default 2
+
+const x = import('x');
