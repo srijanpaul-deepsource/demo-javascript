@@ -42,6 +42,10 @@ execFile('foo' + bar)
 const app = exp()
 app.use(hsts({ includeSubdomains: false })) // 1002 - 
 
+
+const app2 = exp()
+app2.use(hsts({ includeSubdomains: false })) // 1002 - 
+
 app.use(helmet.dnsPrefetchControl({ allow: true })) // 1003
 
 express.use(stat('public', { dotfiles: 'allow' })) // d020 -
