@@ -15,7 +15,6 @@ enabled = true
     'packages/demo-nuxt/',
     'packages/demo-typescript/'
   ]
-  style_guide = "airbnb"
 
 
 [[transformers]]
