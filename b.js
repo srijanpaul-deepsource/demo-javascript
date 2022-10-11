@@ -16,6 +16,12 @@ const _ = (req, res) => {
   execa.command(x);
 }
 
+const _2 = (req, res) => {
+  const x = "ls " + req.body.args;
+
+  execa.command(x);
+}
+
 const express = require('express');
 const helmet = require('helmet');
 
