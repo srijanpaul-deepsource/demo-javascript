@@ -12,6 +12,7 @@ c({ cookie: { secure: false } })
 
 const _ = (req, res) => {
   const x = "ls " + req.body.args;
+
   execa.command(x);
 }
 
