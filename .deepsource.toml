@@ -5,7 +5,7 @@ name = "javascript"
 enabled = true
 
   [analyzers.meta]
-  environment = ['nodejs']
+  environment = ['nodejs', 'jest']
   plugins = ['react', 'vue']
   dialect = 'flow'
   dependency_file_paths = [
@@ -15,6 +15,7 @@ enabled = true
     'packages/demo-nuxt/',
     'packages/demo-typescript/'
   ]
+  style_guide = "airbnb"
 
 
 [[transformers]]
