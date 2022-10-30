@@ -1,1 +1,5 @@
 Boolean(!!x)
+
+for (; !!foo; ) {
+
+}
