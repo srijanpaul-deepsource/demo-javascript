@@ -1,5 +1,5 @@
-Boolean(!!x)
+Boolean(x)
 
-for (; !!foo; ) {
+for (; foo; ) {
 
 }
