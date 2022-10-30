@@ -1,1 +1,1 @@
-Boolean(!!x)
+Boolean(!!x);
