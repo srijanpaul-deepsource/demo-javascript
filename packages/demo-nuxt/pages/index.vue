@@ -1,79 +1,75 @@
 <template>
-  <Tutorial/>
+  <Tutorial />
 </template>
 
 <script>
 export default {
   /** require-head-as-head */
   head: {
-    title: "My page"
+    title: "My page",
   },
 
   /** no-globals-in-created */
   created() {
-    window.name = 'joe'
+    window.name = "joe";
   },
-  
-  
+
   asyncData(context) {
     /** no-env-in-context */
     if (context.isServer) {
-      const data = 'city1'
+      const data = "city1";
     }
 
     if (context.isClient) {
-      const data = 'city1'
+      const data = "city1";
     }
 
     console.log("fubar")
     let x  = 1;
-    
+
     /** no-this-in-fetch-data */
-    this.x = 10
-    
+    this.x = 10;
+
     /** no-timing-in-fetch-data */
-    let name = 'joe'
+    let name = "joe";
     setTimeout(() => {
-      name = 'baz'
-    }, 0)
-    
-    
+      name = "baz";
+    }, 0);
   },
   fetch({ isClient }) {
-
     /** no-env-in-context */
-    if (isClient ) {
-      const data = 'city1'
+    if (isClient) {
+      const data = "city1";
     }
 
-    if (isClient) { /*empty*/ }
-    
+    if (isClient) {
+      /*empty*/
+    }
+
     /** no-timing-in-fetch-data */
-    let name = 'joe'
+    let name = "joe";
     setInterval(() => {
-      name = 'smith'
-    }, 0)
-    
+      name = "smith";
+    }, 0);
   },
-  
- 
+
   mounted() {
     /** no-env-in-hooks */
     if (process.server) {
-      const city = 'NYC'
+      const city = "NYC";
     }
   },
   beforeMount() {
     /** no-env-in-hooks */
     if (process.client) {
-      const city = 'NYC'
+      const city = "NYC";
     }
   },
   beforeDestroy() {
     /** no-env-in-hooks */
     if (process.browser) {
-      const city = 'NYC'
+      const city = "NYC";
     }
-  }
-}
+  },
+};
 </script>
