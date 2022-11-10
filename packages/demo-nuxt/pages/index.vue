@@ -33,10 +33,13 @@ export default {
     
   },
   fetch({ isClient }) {
+
     /** no-env-in-context */
     if (isClient ) {
       const data = 'city1'
     }
+
+    if (isClient) { /*empty*/ }
     
     /** no-timing-in-fetch-data */
     let name = 'joe'
