@@ -20,6 +20,10 @@ export default {
     if (context.isServer) {
       const data = 'city1'
     }
+
+    if (context.isClient) {
+      const data = 'city1'
+    }
     
     /** no-this-in-fetch-data */
     this.x = 10
