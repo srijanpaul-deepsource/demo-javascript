@@ -24,6 +24,9 @@ export default {
     if (context.isClient) {
       const data = 'city1'
     }
+
+    console.log("fubar")
+    let x  = 1;
     
     /** no-this-in-fetch-data */
     this.x = 10
