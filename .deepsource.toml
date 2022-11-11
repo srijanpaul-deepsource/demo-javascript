@@ -5,7 +5,6 @@ name = "javascript"
 enabled = true
 
   [analyzers.meta]
-  environment = ['node', 'jest']
   plugins = ['react', 'vue']
   dialect = 'flow'
   dependency_file_paths = [
