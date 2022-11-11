@@ -6,7 +6,7 @@ for (; !!foo; ) {}
   document.querySelector(".actionBar-action--delete").click();
   setTimeout(() => {
     document.querySelector(".button--icon--delete").click();
-  }, 500)
+  }, 500);
 })();
 
-console.log('fubar')
+console.log("fubar");
