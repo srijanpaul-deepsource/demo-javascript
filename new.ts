@@ -1,3 +1,3 @@
-import x from './does-not-exist'
+import x from "./does-not-exist";
 
-export { x }
+export { x };
