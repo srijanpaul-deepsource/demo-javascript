@@ -17,3 +17,5 @@ export function foo() {
   }
 }
 
+console.log('barfoo')
+
