@@ -1,4 +1,4 @@
-import x from './does-not-exist'
+import x from "./does-not-exist";
 
-console.log("FOO")
-export { x }
+console.log("FOO");
+export { x };
