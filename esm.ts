@@ -1,6 +1,6 @@
 import f from "./foo";
-import b from 'b';
-import a from 'a';
+import b from "b";
+import a from "a";
 
 export const p = new Promise((resolve, _reject) => {
   resolve(100);
