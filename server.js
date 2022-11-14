@@ -1,34 +1,33 @@
-import unknownVar from 'unknown-module'
+import unknownVar from "unknown-module";
 
-const vm = require('vm')
-module.exports = { foo: 1 }
-console.log("helddooo")
+const vm = require("vm");
+module.exports = { foo: 1 };
+console.log("helddooo");
 
-module.exports = { bar: 2 }
+module.exports = { bar: 2 };
 
-const app = require('express')()
-app.get('/foo', (req, res) => {
+const app = require("express")();
+app.get("/foo", (req, res) => {
   vm.run(req.params.foo);
 });
 
-foo()
-bar?.foo()
-bar?.foo
-bar.foo
+foo();
+bar?.foo();
+bar?.foo;
+bar.foo;
 
-print(`some ${unknownVar}`)
+print(`some ${unknownVar}`);
 print(`some ${unknownVar.method()}`)
 print(`some ${unknownVar.member.method()}`)
 
-const stringVar = 'hello'
-print(`some ${stringVar}`)
+const stringVar = "hello";
+print(`some ${stringVar}`);
 
-const numVar = 12
-print(`some ${numVar}`)
+const numVar = 12;
+print(`some ${numVar}`);
 
+const boolVar = true;
+print(`some ${boolVar}`);
 
-const boolVar = true
-print(`some ${boolVar}`)
-
-const fubar = { not: 'a string' }
-print(`some ${fubar}`)
+const fubar = { not: "a string" };
+print(`some ${fubar}`);
