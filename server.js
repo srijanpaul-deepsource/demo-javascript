@@ -8,3 +8,8 @@ const app = require('express')()
 app.get('/foo', (req, res) => {
   vm.run(req.params.foo);
 });
+
+foo()
+bar?.foo()
+bar?.foo
+bar.foo
