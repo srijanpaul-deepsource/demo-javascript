@@ -17,6 +17,8 @@ bar?.foo
 bar.foo
 
 print(`some ${unknownVar}`)
+print(`some ${unknownVar.method()}`)
+print(`some ${unknownVar.member.method()}`)
 
 const stringVar = 'hello'
 print(`some ${stringVar}`)
