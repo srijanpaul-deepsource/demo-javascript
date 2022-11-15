@@ -22,6 +22,10 @@ export default {
       msg: "Welcome to DeepSource Demo Vue",
     };
   },
+
+  watch: {
+    f() { return 1 }
+  },
   props: {
     myProp: "Number",
     anotherProp: ["Number", "String"],
@@ -31,6 +35,13 @@ export default {
         return {};
       },
     },
+    f: {
+      default () {
+        return function () {
+          return this.propStr
+        }
+      }
+    }
     myOtherFieldWithBadType: {
       type: "Number",
       default: 1,
