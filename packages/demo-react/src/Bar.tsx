@@ -8,5 +8,4 @@ if (Meteor.isCordova) {
   Template.foo.created = function () {}
 }
 
-
 export default Foo
