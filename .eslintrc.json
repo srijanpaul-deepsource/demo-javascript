@@ -1,14 +1,6 @@
 {
-  "extends": [
-    "airbnb",
-    "standard-with-typescript",
-    "eslint:all",
-    "standard"
-  ],
-  "plugins": [
-    "node",
-    "security"
-  ],
+  "extends": ["airbnb", "standard-with-typescript", "eslint:all", "standard"],
+  "plugins": ["node", "security"],
   "env": {
     "node": true,
     "es6": true,

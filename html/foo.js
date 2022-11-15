@@ -20,15 +20,15 @@ f(`${x.toString()}`);
 f(`fubar ${123}`);
 f(`fubar ${false}`);
 f(`fubar ${{ x: 1 }}`);
-f(`fubar ${({ x: 1 }).toString()}`);
+f(`fubar ${{ x: 1 }.toString()}`);
 
-const one = 1
-one = 2 // no-const-assign
-one = 3 // no-const-assign
+const one = 1;
+one = 2; // no-const-assign
+one = 3; // no-const-assign
 
 function g() {
-  return 1
+  return 1;
 }
 
-const fs = require('fs')
-fs.chmod('foo', '0o777')
+const fs = require("fs");
+fs.chmod("foo", "0o777");
