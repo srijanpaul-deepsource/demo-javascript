@@ -31,4 +31,4 @@ function g() {
 }
 
 const fs = require('fs')
-fs.chmod('foo', '0o777')
+fs.chmodSync("/tmp/fs", 0o777)
