@@ -6,7 +6,7 @@ enabled = true
 
   [analyzers.meta]
   plugins = ['react', 'vue']
-  dialect = 'flow'
+  dialect = 'typescript'
   dependency_file_paths = [
     'packages/demo-react/',
     'packages/demo-vue/',
