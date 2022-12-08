@@ -14,7 +14,7 @@ export default class Foo {
     this.f()
   }
 
-  // doc
+  // doc comment
   f() {
     return this.fu;
   }
