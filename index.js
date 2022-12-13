@@ -62,3 +62,13 @@ helmet.contentSecurityPolicy({ directives: { frameAncestors: 'none' } }) // d024
 const { contentSecurityPolicy } = require('helmet')
 const foo = 1
 contentSecurityPolicy({ directives: { frameAncestors: 'none', foo } })
+
+const div = document.getElementById('foo')
+
+fetch('foo', (res) => {
+  div.innerHTML = res.data.foo
+})
+
+const popup = window.openPopup('foo')
+popup.postMessage("secret message for the parent")
+
