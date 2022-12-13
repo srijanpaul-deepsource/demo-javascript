@@ -69,8 +69,7 @@ fetch('foo', (res) => {
   div.innerHTML = res.data.foo
 })
 
-const popup = window.openPopup('foo')
-popup.postMessage("secret message for the parent")
+window.postMessage("secret message for the parent")
 
 if (false) {
 }
