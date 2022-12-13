@@ -72,3 +72,6 @@ fetch('foo', (res) => {
 const popup = window.openPopup('foo')
 popup.postMessage("secret message for the parent")
 
+if (false) {
+}
+
