@@ -70,7 +70,7 @@ fetch("foo").then((res) => (div.innerHTML = res.data.foo));
 window.postMessage("secret message for the parent");
 
 // In NodeJS
-const password = `${basePassword}-${Math.random() * 1000}`
+const password = `${basePassword}-${Math.random() * 1000}`;
 // In the browser
 const formData = getUserInput();
 formData.password += Math.random();
