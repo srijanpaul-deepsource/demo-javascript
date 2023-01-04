@@ -15,6 +15,7 @@ enabled = true
     'packages/demo-typescript/'
   ]
   style_guide = "airbnb"
+  environment = ['nodejs']
 
 
 [[transformers]]
