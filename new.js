@@ -1,4 +1,5 @@
 import x from './does-not-exist'
 
-console.log("FOO")
-export { x }
+const buf = new Buffer("fubar")
+
+export { x, buf }
