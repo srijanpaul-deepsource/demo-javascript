@@ -2,7 +2,7 @@
 export default {
   /* ✗ BAD */
   data: {
-    foo: null
-  }
-}
+    foo: null,
+  },
+};
 </script>
