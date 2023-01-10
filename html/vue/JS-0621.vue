@@ -6,8 +6,8 @@ export default {
     anotherProp: [Number, String],
     myFieldWithBadType: {
       type: Object,
-      default: function() {
-        return {}
+      default: function () {
+        return {};
       },
     },
     myOtherFieldWithBadType: {
@@ -19,14 +19,14 @@ export default {
     anotherProp: ["Number", "String"],
     myFieldWithBadType: {
       type: "Object",
-      default: function() {
-        return {}
+      default: function () {
+        return {};
       },
     },
     myOtherFieldWithBadType: {
       type: "Number",
       default: 1,
     },
-  }
-}
+  },
+};
 </script>
