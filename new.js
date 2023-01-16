@@ -12,5 +12,5 @@ a += 12;
 const anotherObject = { c: 2, d: 4 };
 let { c, d } = anotherObject; // JS-0242
 
-x(b)
+x(b);
 export { x, buf, r, r2, a, b, c };
