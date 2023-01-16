@@ -1,6 +1,4 @@
-interface Person {
+interface Foo {
   name: string;
   age: number;
 }
-
-export default Person
