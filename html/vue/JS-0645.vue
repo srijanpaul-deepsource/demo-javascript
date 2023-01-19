@@ -6,7 +6,7 @@
 export default {
   render() {
     /* ✗ BAD */
-    return this.$scopedSlots.default()
-  }
-}
+    return this.$scopedSlots.default();
+  },
+};
 </script>

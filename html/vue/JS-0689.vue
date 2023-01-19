@@ -10,8 +10,8 @@
     v-model="headerData"
     my-prop="prop"
     @click="functionCall"
-    v-text="textContent">
-  </div>
+    v-text="textContent"
+  ></div>
   <div
     v-for="item in items"
     v-if="!visible"
@@ -19,13 +19,9 @@
     :prop-two="prop"
     prop-three="prop"
     @click="functionCall"
-    v-text="textContent">
-  </div>
-  <div
-    prop-one="prop"
-    :prop-two="prop"
-    prop-three="prop">
-  </div>
+    v-text="textContent"
+  ></div>
+  <div prop-one="prop" :prop-two="prop" prop-three="prop"></div>
 
   <!-- ✗ BAD -->
   <div
@@ -38,6 +34,6 @@
     v-if="!visible"
     is="header"
     @click="functionCall"
-    v-text="textContent">
-  </div>
+    v-text="textContent"
+  ></div>
 </template>
