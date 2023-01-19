@@ -1,6 +1,8 @@
-const object = { a: 1, b: 2, c: 3, d: 4 };
-let { a, b } = object;
-let { c, d } = object;
-a += 1;
+import http from "http"
+import url from "url"
 
-export default { a, b, c, d };
+http.createServer((req, res) => {
+  const parsedUrl = url.parse(req.url, true)
+  // Vulnerable! user can inject special characters in the terminal
+  console.log(parsedUrl.query.username);
+})
