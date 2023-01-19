@@ -1,10 +1,10 @@
-
 let e = [
-    function foo() {
-        dosomething();
-    }, function bar() {
-        dosomething();
-    }
+  function foo() {
+    dosomething();
+  },
+  function bar() {
+    dosomething();
+  },
 ];
 
 var foo = Boolean(bar);
