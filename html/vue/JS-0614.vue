@@ -1,14 +1,14 @@
 <script>
 /* ✗ BAD */
-Vue.component('some-comp', {
+Vue.component("some-comp", {
   data: {
-    foo: 'bar'
-  }
-})
+    foo: "bar",
+  },
+});
 
 export default {
   data: {
-    foo: 'bar'
-  }
-}
+    foo: "bar",
+  },
+};
 </script>

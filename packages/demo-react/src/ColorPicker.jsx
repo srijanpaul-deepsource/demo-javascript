@@ -78,7 +78,7 @@ export default class ColorPicker extends React.Component {
       },
       () => {
         this.props.onChange(this.state);
-      }
+      },
     );
   }
 
@@ -112,7 +112,7 @@ export default class ColorPicker extends React.Component {
           } else {
             onClose(this.state);
           }
-        }
+        },
       );
     }
   }

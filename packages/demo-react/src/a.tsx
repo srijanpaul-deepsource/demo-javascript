@@ -1,1 +1,1 @@
-import c, { x } from './components/c'
+import c, { x } from "./components/c";
