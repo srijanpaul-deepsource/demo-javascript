@@ -11,7 +11,7 @@ import { Inject, Fubar, Fu } from "foo";
 export default class Foo {
   // doc
   constructor(@Inject(Fubar) private readonly fu: Fu) {
-    this.f()
+    this.f();
   }
 
   // doc comment
